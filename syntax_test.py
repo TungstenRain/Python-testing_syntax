@@ -97,3 +97,45 @@ SyntaxError: leading zeros in decimal integer literals are not permitted; use an
        ^
 SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
 """
+
+# Storing a variable to a variable beginning with a mumber
+>>> 42 = n
+"""
+  File "<stdin>", line 1
+SyntaxError: cannot assign to literal
+"""
+
+# Storing a number into multiple variables
+>>> x = y = 1
+"""
+>>> print(x)
+1
+>>> print(y)
+1
+"""
+
+# Ending a line with a semi-colon
+>>> x = 42;
+"""
+>>> print(x)
+42
+"""
+
+# Adding a period to the end of a mathematical statement
+>>> x = 42.
+"""
+>>> print(x)
+42.0
+
+Note: The integer is converted to a float
+"""
+
+# Mathematical notation without the multiplication symbol. In mathematics, xy is the same as x * y
+>>> x = 6
+>>> y = 10
+>>> z = xy
+"""
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'xy' is not defined
+"""
