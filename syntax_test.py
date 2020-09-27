@@ -1,4 +1,11 @@
 """
+    This module contains code from
+    Think Python by Allen B. Downey
+    http://thinkpython.com
+
+    Copyright 2012 Allen B. Downey
+    License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
+    
     This is to try out syntax errors and determine how the interpreter will handle them
     
     Note: Although this is saved in a .py file, code was run on an interpreter to get results
